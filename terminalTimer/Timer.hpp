@@ -7,6 +7,7 @@ private:
     time_t beginTimer_;
     time_t countTimer_;
     ClockFace clock_;
+    bool isPause;
 public:
     Timer() noexcept;
 
